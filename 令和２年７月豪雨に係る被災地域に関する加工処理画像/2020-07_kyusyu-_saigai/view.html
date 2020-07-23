@@ -64,7 +64,7 @@
         attribution: '<a href="https://maps.gsi.go.jp/development/ichiran.html">地理院タイル</a>'
       }).addTo(map);
 
-      var mytile =L.tileLayer('https://raw.githubusercontent.com/takahikouchida/maptile/master/%E4%BB%A4%E5%92%8C%EF%BC%92%E5%B9%B4%EF%BC%97%E6%9C%88%E8%B1%AA%E9%9B%A8%E3%81%AB%E4%BF%82%E3%82%8B%E8%A2%AB%E7%81%BD%E5%9C%B0%E5%9F%9F%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E5%8A%A0%E5%B7%A5%E5%87%A6%E7%90%86%E7%94%BB%E5%83%8F/2020-07_kyusyu-_saigai/{z}/{x}/{y}.png', {
+      var mytile =L.tileLayer('./{z}/{x}/{y}.png', {
         maxZoom: 16,
         tms: false,
         attribution: '<a href="https://www.cas.go.jp/jp/houdou/200717csice.html">令和２年７月豪雨に係る被災地域に関する加工処理画像について</a>'
